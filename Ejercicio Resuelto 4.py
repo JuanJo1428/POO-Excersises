@@ -14,6 +14,7 @@ class Calculos:
         
         return EdadAna
 
+    @staticmethod
     def CalcularMadre(EdadJuan, EdadAlberto, EdadAna):
         EdadMadre = EdadJuan + EdadAlberto + EdadAna
     
@@ -34,4 +35,5 @@ class Ejercicio_4:
 
 
 Ejercicio_4.Edades()
+
 
